@@ -6,6 +6,10 @@
 }
 
 /* General Styles */
+* {
+	padding: 0;
+	margin: 0;
+}
 html, body {
 	background-color: #ADD8E6;
 	margin: 0;
@@ -72,6 +76,7 @@ input[type="button"]{
 	color: var(--btn-text-hover);
 }
 
+
 /* Class-based styles*/
 .container {
 	margin-top: 4vw;
@@ -96,8 +101,8 @@ input[type="button"]{
 .inprogress-text{
 	margin-top: 5rem;
 
-	border:none;
-	border-bottom: solid 3px black;
+	/* border:none; */
+	/* border-bottom: dotted 1 3px black; */
 }
 
 /* Cross-platform styles */
